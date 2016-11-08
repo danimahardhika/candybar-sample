@@ -136,7 +136,7 @@
     * change to true to enable it -->
     <bool name="enable_premium_request">false</bool>
 
-    <!-- Take a look inside LicenseHelper.java for premium request product -->
+    <!-- Take a look inside License.java for premium request product -->
 
     <!-- Email that will be used to send icon request and report bugs -->
     <string name="dev_email">your@email.com</string>
@@ -217,6 +217,6 @@
     * change to false to disable it -->
     <bool name="enable_donation">false</bool>
 
-    <!-- Take a look inside LicenseHelper.java for donation product -->
+    <!-- Take a look inside License.java for donation product -->
 
 </resources>
