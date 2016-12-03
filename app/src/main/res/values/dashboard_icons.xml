@@ -2,12 +2,6 @@
 <resources
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
-    
-    <!-- Global icon search
-    * Use global icon search instead icon search inside each section
-    * Enable -> true
-    * Disable -> false -->
-    <bool name="enable_global_icon_search">false</bool>
 
     <!-- Icon picker thumbnail size
     * default: 58dp -->
