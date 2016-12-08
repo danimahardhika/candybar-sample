@@ -151,7 +151,8 @@
 
     <!-- Take a look inside License.java for premium request product -->
 
-    <!-- Email that will be used to send icon request and report bugs -->
+    <!-- Email that will be used to send icon request, report bugs, and crash report
+    * Even if you disable icon request, you need to put your email here -->
     <string name="dev_email">your@email.com</string>
 
     <!-- CONFIG: CLOUD WALLPAPERS -->
