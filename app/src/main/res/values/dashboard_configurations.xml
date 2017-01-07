@@ -238,7 +238,7 @@
     * Show support development option in navigation view
     * default: true
     * change to false to disable it -->
-    <bool name="enable_donation">true</bool>
+    <bool name="enable_donation">false</bool>
 
     <!-- Take a look inside License.java for donation product -->
 
