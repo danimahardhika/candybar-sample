@@ -11,7 +11,6 @@ public class MainActivity extends CandyBarMainActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         initMainActivity(savedInstanceState,
-                WallpaperActivity.class,
                 License.isLicenseCheckerEnabled(),
                 License.getRandomString(),
                 License.getLicenseKey(),

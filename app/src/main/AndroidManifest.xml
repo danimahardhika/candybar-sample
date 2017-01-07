@@ -138,11 +138,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.material.dashboard.candybar.sample.activities.WallpaperActivity"
-            android:launchMode="singleTop"
-            android:theme="@style/WallpaperTheme"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
-
         <activity android:name="com.material.dashboard.candybar.sample.activities.MuzeiActivity"
             android:label="@string/muzei_settings"
             android:theme="@style/AppTheme"

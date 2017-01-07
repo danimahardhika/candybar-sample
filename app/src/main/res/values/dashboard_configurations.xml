@@ -35,18 +35,17 @@
     <integer name="splash_screen_duration">1000</integer>
 
     <!-- CONFIG: HOME -->
-    
+
     <!-- Quick Apply for default launcher
     * Enable or disable quick apply Icon Pack for default launcher if supported
     * Enable -> true
     * Disable -> false -->
     <bool name="enable_quick_apply">true</bool>
 
-    <!-- Text on home image
-    * Leave empty if you don't want to show any text -->
+    <!-- Home title must be defined -->
     <string name="home_title">CandyBar</string>
 
-    <!-- Text below home title
+    <!-- Home subtitle is optional
     * Leave empty if you don't want to show any text -->
     <string name="home_subtitle">Material Dashboard</string>
 
@@ -55,19 +54,18 @@
     * If you want to use image stored in project (drawable folder)
     * just put image name here without the extension (ex: home_image.png -> home_image) -->
     <string name="home_image">https://drive.google.com/uc?id=0B0f4ypHfNKm5UFhmaTB0TGJLRDA</string>
-    
+
     <!-- Home image height
     * default: 256dp -->
-    <dimen name="home_image_height">256dp</dimen>
+    <dimen name="home_image_height">220dp</dimen>
 
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
-    <string name="home_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.</string>
+    <string name="home_description"><![CDATA[
+        Description now support html formatting, <b>bold description</b>,
+        <i>italic description</i>, <u>underline description</u>,
+        <a href="https://github.com/danimahardhika">link inside description</a>.
+        ]]></string>
 
     <!-- Icon Pack features (will be visible in home)
     * Number 1 - 5 must be included, after that only optional -->
@@ -93,7 +91,7 @@
     <!-- More apps at Google Play Store
     * Link to google play store developer
     * If you don't want to show this part, just leave this empty -->
-    <string name="google_play_dev">https://play.google.com/store/apps/dev?id=your_developer_id</string>
+    <string name="google_play_dev">https://play.google.com/store/apps/developer?id=Dani+Mahardhika</string>
 
     <!-- CONFIG: NAVIGATION VIEW HEADER -->
 
@@ -111,7 +109,7 @@
     <!-- Navigation view header text
     * Leave empty if you don't want to show any text -->
     <string name="navigation_view_header_title">CandyBar</string>
-    
+
     <!-- Navigation view width -->
     <dimen name="navigation_view_width">300dp</dimen>
 
@@ -147,36 +145,41 @@
     <!-- Enable or disable premium request
     * default: false
     * change to true to enable it -->
-    <bool name="enable_premium_request">false</bool>
+    <bool name="enable_premium_request">true</bool>
 
     <!-- Take a look inside License.java for premium request product -->
 
-    <!-- Email that will be used to send icon request, report bugs, and crash report
-    * Even if you disable icon request, you need to put your email here -->
+    <!-- Email that will be used to send icon request and report bugs -->
     <string name="dev_email">your@email.com</string>
 
     <!-- CONFIG: CLOUD WALLPAPERS -->
 
     <!-- WallpaperJSON json link
     * If your icon pack doesn't contains any wallpaper, just leave this empty
-    * <string name="wallpaper_json"></string>-->
-    <string name="wallpaper_json">https://drive.google.com/uc?id=0B0f4ypHfNKm5NkFoNzB1anZPc28</string>
+    * <string name="wallpaper_json"></string> -->
+    <string name="wallpaper_json">https://drive.google.com/uc?id=0B0f4ypHfNKm5TmRMSnhpb2JSalE</string>
 
-    <!-- Auto update wallpaper library
-    * default: 7
-    * every 7 days wallpaper library will be refreshed automatically -->
-    <integer name="wallpaper_update_every_days">7</integer>
+    <!-- Allow to download wallpaper
+    * If disabled user only able to apply wallpaper from dashboard -->
+    <bool name="enable_wallpaper_download">true</bool>
+
 
     <!-- Auto generated color for wallpaper card
     * default: true
     * change to false to disable it -->
     <bool name="card_wallpaper_auto_generated_color">true</bool>
-    
+
     <!-- Wallpaper name and author
     * Show or hide name and author below wallpaper
     * Show -> true
     * Hide -> false -->
     <bool name="wallpaper_show_name_author">true</bool>
+
+    <!-- Wallpapers grid preview quality
+    * Image quality when displaying wallpapers in grid
+    * Higher value means higher quality, more RAM usage
+    * Lower value means lower quality, minimal RAM usage -->
+    <integer name="wallpaper_grid_preview_quality">4</integer>
 
     <!-- CONFIG: ABOUT -->
 
@@ -235,7 +238,7 @@
     * Show support development option in navigation view
     * default: true
     * change to false to disable it -->
-    <bool name="enable_donation">false</bool>
+    <bool name="enable_donation">true</bool>
 
     <!-- Take a look inside License.java for donation product -->
 
