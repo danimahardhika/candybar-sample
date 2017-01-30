@@ -19,6 +19,6 @@
     <string name="premium_request_limit_3">You need to use all of your Premium Request before using regular request again.</string>
 
     <!-- Support Development -->
-    <string name="donation_success">Thank you for making donation. I will use the donation you have given for good.</string>
+    <string name="donation_success">Thank you for making a donation. I will use it for good.</string>
 
 </resources>
