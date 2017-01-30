@@ -25,21 +25,16 @@
         android:installLocation="auto"
         tools:replace="android:icon">
 
-        <activity android:name="com.material.dashboard.candybar.sample.activities.StartActivity"
+        <activity android:name="com.material.dashboard.candybar.sample.activities.SplashActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
-            android:theme="@style/TranslucentTheme" >
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="com.material.dashboard.candybar.sample.activities.SplashActivity"
-            android:launchMode="singleTop"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme" />
 
         <activity android:name="com.material.dashboard.candybar.sample.activities.MainActivity"
             android:launchMode="singleTop"

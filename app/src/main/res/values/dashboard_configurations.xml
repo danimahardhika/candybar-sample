@@ -23,24 +23,13 @@
     <!-- Muzei base color -->
     <color name="muzei_color">#43C0FF</color>
 
-    <!-- CONFIG: SPLASH SCREEN -->
-
-    <!-- Show splash screen when the app opened
-    * default: true
-    * change to false to disable it -->
-    <bool name="use_splash_screen">true</bool>
-
-    <!-- Splash screen duration in milliseconds
-    * default: 1000 milliseconds -> 1 seconds -->
-    <integer name="splash_screen_duration">1000</integer>
-
     <!-- CONFIG: HOME -->
 
     <!-- Quick Apply for default launcher
     * Enable or disable quick apply Icon Pack for default launcher if supported
     * Enable -> true
     * Disable -> false -->
-    <bool name="enable_quick_apply">true</bool>
+    <bool name="enable_quick_apply">false</bool>
 
     <!-- Home title must be defined -->
     <string name="home_title">CandyBar</string>
@@ -62,7 +51,7 @@
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
     <string name="home_description"><![CDATA[
-        Description now support html formatting, <b>bold description</b>,
+        Description now supports html formatting, <b>bold description</b>,
         <i>italic description</i>, <u>underline description</u>,
         <a href="https://github.com/danimahardhika">link inside description</a>.
         ]]></string>
@@ -73,25 +62,24 @@
         <!-- 1. This part must be about number of icons included -->
         <item>More than 1000 custom icons included</item>
         <!-- 2. This part must be about icon quality -->
-        <item>192x192 pixels vector based icon</item>
+        <item>192x192 pixels vector based icons</item>
         <!-- 3. This part must be about number of wallpapers included
         * If your icon pack doesn't contains wallpaper just ignore this -->
         <item>100+ cloud wallpapers</item>
         <!-- 4. This part must be about muzei live wallpaper
         * If your icon pack doesn't contains wallpaper just ignore this -->
-        <item>Support muzei live wallpaper</item>
+        <item>Supports muzei live wallpaper</item>
         <!-- 5. This part must be about number of launchers supported -->
-        <item>Support more than 20 custom launchers</item>
+        <item>Supports more than 24 custom launchers</item>
         <!-- You can add another features here -->
-        <item>More features</item>
-        <item>Another features</item>
+        <item>Another feature</item>
         <item>Another one</item>
     </string-array>
 
     <!-- More apps at Google Play Store
     * Link to google play store developer
     * If you don't want to show this part, just leave this empty -->
-    <string name="google_play_dev">https://play.google.com/store/apps/developer?id=Dani+Mahardhika</string>
+    <string name="google_play_dev">https://play.google.com/store/apps/dev?id=your_developer_id</string>
 
     <!-- CONFIG: NAVIGATION VIEW HEADER -->
 
@@ -126,7 +114,7 @@
     <!-- Enable regular icon request limit
     * default: false
     * change to true to enable it -->
-    <bool name="enable_icon_request_limit">false</bool>
+    <bool name="enable_icon_request_limit">true</bool>
 
     <!-- Limit regular icon request
     * IGNORE if icon request limit is disabled
@@ -147,7 +135,7 @@
     * change to true to enable it -->
     <bool name="enable_premium_request">false</bool>
 
-    <!-- Take a look inside License.java for premium request product -->
+    <!-- Take a look inside LicenseHelper.java for premium request product -->
 
     <!-- Email that will be used to send icon request and report bugs -->
     <string name="dev_email">your@email.com</string>
@@ -156,20 +144,19 @@
 
     <!-- WallpaperJSON json link
     * If your icon pack doesn't contains any wallpaper, just leave this empty
-    * <string name="wallpaper_json"></string> -->
-    <string name="wallpaper_json">https://drive.google.com/uc?id=0B0f4ypHfNKm5TmRMSnhpb2JSalE</string>
+    * <string name="wallpaper_json"></string>-->
+    <string name="wallpaper_json">https://drive.google.com/uc?id=0B0f4ypHfNKm5NkFoNzB1anZPc28</string>
 
     <!-- Allow to download wallpaper
     * If disabled user only able to apply wallpaper from dashboard -->
     <bool name="enable_wallpaper_download">true</bool>
-
 
     <!-- Auto generated color for wallpaper card
     * default: true
     * change to false to disable it -->
     <bool name="card_wallpaper_auto_generated_color">true</bool>
 
-    <!-- Wallpaper name and author
+    <!-- Wallpaper name and author below wallpaper
     * Show or hide name and author below wallpaper
     * Show -> true
     * Hide -> false -->
