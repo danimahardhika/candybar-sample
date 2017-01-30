@@ -114,7 +114,7 @@
     <!-- Enable regular icon request limit
     * default: false
     * change to true to enable it -->
-    <bool name="enable_icon_request_limit">true</bool>
+    <bool name="enable_icon_request_limit">false</bool>
 
     <!-- Limit regular icon request
     * IGNORE if icon request limit is disabled
@@ -135,7 +135,7 @@
     * change to true to enable it -->
     <bool name="enable_premium_request">false</bool>
 
-    <!-- Take a look inside LicenseHelper.java for premium request product -->
+    <!-- Take a look inside License.java for premium request product -->
 
     <!-- Email that will be used to send icon request and report bugs -->
     <string name="dev_email">your@email.com</string>
