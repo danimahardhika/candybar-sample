@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto"      
     package="com.material.dashboard.candybar.sample">
 
     <!-- If you are not using donation and premium request, you need to remove BILLING permission -->
@@ -22,7 +23,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:installLocation="auto"
         tools:replace="android:icon">
 
         <activity android:name="com.material.dashboard.candybar.sample.activities.SplashActivity"
