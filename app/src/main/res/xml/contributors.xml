@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <contributor
+        name="Name 1"
+        contribution="Contribution 1, contribution 2"
+        link="" />
+    <contributor
+        name="Name 2"
+        contribution="Contribution 1, contribution 2, contribution 3"
+        link="" />
+    <contributor
+        name="Another Name"
+        contribution="Contribution 1"
+        link="http://plus.google.com/..." />
+    <contributor
+        name="Another Name 2"
+        contribution="Contribution 1, contribution 2, contribution 3, contribution 4, contribution 5, contribution 6"
+        link="http://www.link.com" />
+
+</resources>
