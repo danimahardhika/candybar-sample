@@ -66,8 +66,6 @@
     <color name="primaryTextDark">#EEFFFFFF</color>
     <color name="secondaryText">#777777</color>
     <color name="secondaryTextDark">#99FFFFFF</color>
-    <color name="hintText">#44FFFFFF</color>
-    <color name="hintTextDark">#44FFFFFF</color>
     <color name="dividerList">#EEEEEE</color>
     <color name="dividerListDark">#22FFFFFF</color>
 
