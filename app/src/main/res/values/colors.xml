@@ -8,6 +8,11 @@
     <color name="darkColorPrimary">#0082B4</color>
     <color name="darkColorPrimaryDark">#006EA0</color>
     <color name="darkColorAccent">#23BEA5</color>
+    
+    <!-- Navigation Bar
+    * Must be solid color, no alpha -->
+    <color name="navigationBar">#000000</color>
+    <color name="navigationBarDark">#000000</color>
 
     <!-- Splash Screen -->
     <color name="splashColor">#F0F0F0</color>
@@ -29,17 +34,6 @@
     <!-- Toolbar -->
     <color name="toolbarIcon">#FFFFFFFF</color>
     <color name="toolbarIconDark">#FFFFFFFF</color>
-
-    <!-- Home -->
-    <color name="homeTitle">#FFFFFF</color>
-    <color name="homeTitleDark">#FFFFFF</color>
-
-    <color name="homeFeatureIcons">#8BC34A</color>
-    <color name="homeFeatureDimensions">#009688</color>
-    <color name="homeFeatureCloudWallpapers">#F44336</color>
-    <color name="homeFeatureMuzei">#3577D7</color>
-    <color name="homeFeatureLaunchers">#FFC107</color>
-    <color name="homeFeaturesIconRequest">#9C27B0</color>
 
     <!-- Tab -->
     <color name="tabIndicator">#FFFFFFFF</color>
@@ -68,6 +62,10 @@
     <color name="secondaryTextDark">#99FFFFFF</color>
     <color name="dividerList">#EEEEEE</color>
     <color name="dividerListDark">#22FFFFFF</color>
+    
+    <!-- Fast Scroll -->
+    <color name="fastScrollHandle">#757575</color>
+    <color name="fastScrollHandleDark">#B2B2B2</color>
 
     <!-- Popup Bubble -->
     <color name="popupBubble">#23BEA5</color>
