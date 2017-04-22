@@ -4,7 +4,8 @@
     <!-- Icon name replacer
     * Format: <item>Word that you want to replace + ,(comma) + Word that you want to replace with</item>
     *
-    * NOTE: Adding so many conditions may reduce dashboard performance, loading time will be increased -->
+    * NOTE: Adding so many conditions may reduce dashboard performance, loading time will be increased
+    * NOTE: By default underscore "_" will be replaced with space " ", you don't need to use icon name replacer -->
 
     <!-- Enable or disable icon name replacer
     * Enable -> true
