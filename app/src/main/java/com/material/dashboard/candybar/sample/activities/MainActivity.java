@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.helpers.InAppBillingHelper;
 import com.material.dashboard.candybar.sample.licenses.License;
 
 public class MainActivity extends CandyBarMainActivity {
@@ -11,11 +12,12 @@ public class MainActivity extends CandyBarMainActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         initMainActivity(savedInstanceState,
-                License.isLicenseCheckerEnabled(),
-                License.getRandomString(),
-                License.getLicenseKey(),
-                License.getDonationProductsId(),
-                License.getPremiumRequestProductsId(),
-                License.getPremiumRequestProductsCount());
+                new InAppBillingHelper.Property(
+                        License.isLicenseCheckerEnabled(),
+                        License.getRandomString(),
+                        License.getLicenseKey(),
+                        License.getDonationProductsId(),
+                        License.getPremiumRequestProductsId(),
+                        License.getPremiumRequestProductsCount()));
     }
 }
