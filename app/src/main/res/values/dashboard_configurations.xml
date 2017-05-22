@@ -45,11 +45,11 @@
     <!-- Home image style
     * Available choices:
     * card_square
-    * card_rectangle
-    * rectangle
+    * card_landscape
+    * landscape
     * square
     -->
-    <string name="home_image_style">card_rectangle</string>
+    <string name="home_image_style">card_landscape</string>
     
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
@@ -175,8 +175,8 @@
     <!-- Wallpapers grid preview style
     * Available choices:
     * square
-    * rectangle
-    * photo
+    * landscape
+    * portrait
     -->
     <string name="wallpaper_grid_preview_style">square</string>
 
@@ -234,7 +234,7 @@
     <string name="about_link_2_url">http://yourwebsite.com</string>
 
     <!-- Contributors dialog
-    * Take a look inside values/xml/contributors.xml to add contributors -->
+    * Take a look inside res/xml/contributors.xml to add contributors -->
     <bool name="show_contributors_dialog">false</bool>
 
     <!-- CONFIG: DONATE -->
