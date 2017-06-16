@@ -11,11 +11,6 @@
 
     <!-- Use dark theme as default theme -->
     <bool name="use_dark_theme">false</bool>
-    
-    <!-- Enable or disable shadow
-    * Include:
-    * Toolbar, card, and list shadow -->
-    <bool name="enable_shadow">true</bool>
 
     <!-- CONFIG: MUZEI -->
 
@@ -165,12 +160,6 @@
     * Show -> true
     * Hide -> false -->
     <bool name="wallpaper_show_name_author">true</bool>
-
-    <!-- Wallpapers grid preview quality
-    * Image quality when displaying wallpapers in grid
-    * Higher value means higher quality, more RAM usage
-    * Lower value means lower quality, minimal RAM usage -->
-    <integer name="wallpaper_grid_preview_quality">4</integer>
     
     <!-- Wallpapers grid preview style
     * Available choices:
