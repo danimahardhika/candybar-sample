@@ -62,13 +62,5 @@
     <color name="secondaryTextDark">#99FFFFFF</color>
     <color name="dividerList">#EEEEEE</color>
     <color name="dividerListDark">#22FFFFFF</color>
-    
-    <!-- Fast Scroll -->
-    <color name="fastScrollHandle">#757575</color>
-    <color name="fastScrollHandleDark">#B2B2B2</color>
-
-    <!-- Popup Bubble -->
-    <color name="popupBubble">#23BEA5</color>
-    <color name="popupBubbleText">#FFFFFF</color>
 
 </resources>
