@@ -6,6 +6,13 @@ public class CandyBar extends CandyBarApplication {
 
     @Override
     public void onCreate() {
-        initApplication();
+        //Sample configuration
+        Configuration configuration = new Configuration();
+
+        configuration.setGenerateAppFilter(true);
+        configuration.setGenerateAppMap(true);
+        configuration.setGenerateThemeResources(true);
+        
+        initApplication(configuration);
     }
 }
