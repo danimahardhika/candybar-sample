@@ -1,14 +1,17 @@
 package com.material.dashboard.candybar.sample.activities;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.activities.CandyBarSplashActivity;
+import com.dm.material.dashboard.candybar.activities.configurations.SplashScreenConfiguration;
+import com.material.dashboard.candybar.sample.R;
 
 public class SplashActivity extends CandyBarSplashActivity {
 
+    @NonNull
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        initSplashActivity(savedInstanceState, MainActivity.class);
+    public SplashScreenConfiguration onInit() {
+        return new SplashScreenConfiguration(MainActivity.class)
+                .setBottomText(getString(R.string.splash_screen_title));
     }
 }
