@@ -6,11 +6,10 @@ android {
     buildToolsVersion rootProject.ext.BuildTools
 
     android.applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            def file = output.outputFile
+        variant.outputs.all { output ->
             def appName = parent.name
-            def fileName = appName.replace(" ", "_") +"_v"+ variant.versionName +".apk"
-            output.outputFile = new File(file.parent, fileName)
+            def fileName = appName.replace(" ", "_")
+            outputFileName = "$fileName-v${variant.versionName}.apk"
         }
     }
 
@@ -45,5 +44,5 @@ dependencies {
      * 5. Clean project
      * 6. Done
      */
-    compile 'com.github.danimahardhika.candybar-library:core:3.3.2'
+    compile 'com.github.danimahardhika.candybar-library:core:3.5.0-b1'
 }
