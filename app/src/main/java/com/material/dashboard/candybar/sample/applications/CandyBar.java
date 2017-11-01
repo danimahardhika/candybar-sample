@@ -1,11 +1,14 @@
 package com.material.dashboard.candybar.sample.applications;
 
+import android.support.annotation.NonNull;
+
 import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
 
 public class CandyBar extends CandyBarApplication {
-
+    
+    @NonNull
     @Override
-    public void onCreate() {
+    public Configuration onInit() {
         //Sample configuration
         Configuration configuration = new Configuration();
 
@@ -13,6 +16,6 @@ public class CandyBar extends CandyBarApplication {
         configuration.setGenerateAppMap(true);
         configuration.setGenerateThemeResources(true);
         
-        initApplication(configuration);
+        return configuration;
     }
 }
