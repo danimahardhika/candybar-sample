@@ -44,5 +44,5 @@ dependencies {
      * 5. Clean project
      * 6. Done
      */
-    compile 'com.github.danimahardhika.candybar-library:core:3.5.0-b1'
+    compile 'com.github.danimahardhika.candybar-library:core:3.5.0-b2'
 }
