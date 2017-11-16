@@ -16,6 +16,6 @@ public class MainActivity extends CandyBarMainActivity {
                 .setLicenseKey(License.getLicenseKey())
                 .setRandomString(License.getRandomString())
                 .setDonationProductsId(License.getDonationProductsId())
-                .setPremiumRequestProducts(License.getDonationProductsId(), License.getPremiumRequestProductsCount());
+                .setPremiumRequestProducts(License.getPremiumRequestProductsId(), License.getPremiumRequestProductsCount());
     }
 }
